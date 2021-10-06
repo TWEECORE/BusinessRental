@@ -1,0 +1,30 @@
+{
+    "CRS.ObjectNamePrefix": "TWE ",
+    "CRS.OnSaveAlFileAction": "Rename",
+    "CRS.FileNamePattern": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternExtensions": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.FileNamePatternPageCustomizations": "<ObjectNameShort>.<ObjectTypeShortPascalCase>.al",
+    "CRS.RemoveSuffixFromFilename": true,
+    "CRS.RenameWithGit": false,
+    "editor.formatOnSave": true,
+    "al.enableCodeAnalysis": true,
+    "al.codeAnalyzers": [
+        // "${AppSourceCop}",
+        "${CodeCop}"
+    ],
+    "al.packageCachePath": ".\\.alpackages",
+    "al.assemblyProbingPaths": [
+        ".netpackages"
+    ],
+    "al.compilationOptions": {
+        "generateReportLayout": true,
+        "parallel": true
+    },
+    "todohighlight.isEnable": true,
+    "todohighlight.isCaseSensitive": false,
+    "todohighlight.include": [
+        "**/*.al",
+        "**/*.txt",
+        "**/*.ps1"
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "id": "91521544-3aca-4c51-880f-574380ee521a",
+    "name": "Business Rental",
+    "publisher": "HEPTACOM GmbH",
+    "brief": "Business Rental",
+    "description": "Rental Solution for Business Central",
+    "version": "1.5.0.381",
+    "applicationInsightsKey": "e6e050f1-057e-407d-a5b3-525748784512",
+    "privacyStatement": "https://www.heptacom.de/datenschutz/",
+    "EULA": "https://www.heptacom.de/agb/",
+    "help": "https://www.tweecore.de",
+    "url": "https://www.tweecore.de",
+    "contextSensitiveHelpUrl": "https://www.tweecore.de",
+    "logo": "./src/assets/BusinessRental_KeyVisual_BlackAndWhite_350_350.png",
+    "dependencies": [
+        {
+          "id": "8f062a5b-7f0e-4fd4-86a0-36151ebc2c32",
+          "name": "TWEECORE Base",
+          "publisher": "HEPTACOM GmbH",
+          "version": "1.2.0.16"
+        }
+    ],
+    "screenshots": [],
+    "application": "18.0.0.0",
+    "platform": "18.0.0.0",
+    "idRanges": [
+        {
+            "from": 70704600,
+            "to": 70704899
+        }
+    ],
+    "runtime": "7.0",
+    "features": [
+        "TranslationFile"
+    ],
+    "showMyCode": true,
+    "target": "Cloud"
+}

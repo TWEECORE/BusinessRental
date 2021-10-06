@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "app"
+		},
+		{
+			"path": "test"
+		},
+		{
+			"path": "scripts"
+		},
+		{
+			"path": ".azureDevOps"
+		}
+	],
+	"settings": {
+	  "al.codeAnalyzers": [
+		"${AppSourceCop}",
+		"${CodeCop}",
+		"${UICop}"
+	  ]
+	}
+}

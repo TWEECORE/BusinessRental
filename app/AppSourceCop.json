@@ -1,0 +1,9 @@
+{
+    "mandatoryAffixes":  [
+                             "TWE "
+                         ],
+    "supportedCountries":  [
+                               "de",
+                               "us"
+                           ]
+}
